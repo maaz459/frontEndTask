@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'antd'
-import Search from "antd/lib/input/Search";
+import playstore from './../../assets/images/playstore.png'
 import {
     FacebookFilled,
     TwitterSquareFilled,
@@ -26,12 +26,9 @@ const Footer = () => {
                                 />
                                 </Col>
                                 <Col span={6}>
-                                    <Col span={12}> <AppleOutlined
-                                        href=""
-                                        size={10}
-                                        style={{ fontSize: 25 }}
+                                    <Col span={12}> <img style={{ maxWidth: "100%" }} src={playstore}></img>
 
-                                    />
+
                                     </Col>
                                 </Col>
                             </Row>
