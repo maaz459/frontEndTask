@@ -1,0 +1,30 @@
+.impressiveFrameBox{
+    position: absolute;
+       width: 90%;
+       height: 90%;
+       position: absolute;
+       top: 5%;
+       left: 5%;
+       opacity: 0;
+       border: 2px solid white;
+   
+
+   }
+   .impressiveWrap:hover .impressiveFrameBox{
+     opacity: 100;
+   }
+   .impressiveWrap:hover .impressiveImage{
+    
+    transform: scale(1.2);
+    transition: transform .9s ease;
+   }
+
+.rightSideImage:hover{
+    transform: scale(1.2);
+    transition: transform .9s ease;
+}
+
+.Component2:hover{
+  transform: scale(1.2);
+    transition: transform .9s ease;
+}

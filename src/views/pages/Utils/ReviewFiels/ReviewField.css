@@ -1,0 +1,29 @@
+.ReviewHeading{
+
+    text-align: left;
+font: normal normal bolder 15px Lato;
+letter-spacing: 0.25px;
+color: #112D46;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.ReviewerWork{
+    text-align: left;
+    margin-top: 1%;
+font: normal normal normal 13px Lato;
+letter-spacing: 0.25px;
+color: #9D9D9D;
+text-transform: capitalize;
+opacity: 1;
+}
+
+.ReviewText{
+    text-align: left;
+font: normal normal 300 14px Lato;
+margin-top: 1%;
+
+letter-spacing: 0.13px;
+color: #605E5E;
+opacity: 1;
+}

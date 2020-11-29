@@ -1,0 +1,67 @@
+.cartCard{
+    background: rgba(249, 249, 249, 1) 0% 0% no-repeat;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.16);
+    position: relative;
+}
+.cartText{
+    color: rgba(17, 45, 70, 1);
+    font-family: 'Lato', sans-serif;
+    padding-top: 10%;
+    font-size: small;
+    letter-spacing: 1px;
+color: rgba(17, 45, 70, 1);
+text-transform: capitalize;
+}
+
+  .cartTextWrapper {
+    transition: .5s ease;
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+  }
+  .cartHeart{
+    transition: .5s ease;
+    opacity: 0;
+    padding-right: 10%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+  }
+  
+  .cartCard:hover .cartImage{
+    opacity: 100;
+  
+  }
+  
+  .cartCard:hover .cartTextWrapper {
+    opacity: 1;
+   
+  }
+  .cartCard:hover  .cartHeart{
+      opacity: 1;
+  }
+  
+  .cartFrame {
+    background-color: rgba(17, 45, 70, 1);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding: 7px 35px;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .cartFrame {
+        font-size: 10px !important;
+        padding: 7px 35px;
+      }
+      .cartHeart{
+        position: absolute;
+        top: -3% !important;
+        right: 0% !important;
+      }
+      
+  }
